@@ -4,8 +4,9 @@ Blurs the member list and unblurs on hover.
 .members-1998pB, .members-1998pB>div {
    filter: blur(4px);
 }
+
 .members-1998pB, .members-1998pB>div:hover {
-   filter: blur(0);
+   filter: none;
    transition: filter .25s ease-out;
 }
 ```
